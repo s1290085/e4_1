@@ -23,8 +23,8 @@ int main(){
   }
   printf("Heads: %d,Tails: %d\n",cnth,cntt);
   if(cnth>cntt)
-    printf("you won!\n");
+    printf("%s won!\n",str);
     else
-      printf("you lose\n");
+      printf("%s lose\n",str);
   return 0;
 }
