@@ -4,6 +4,10 @@
 
 int main(){
   int i=0,cnth=0,cntt=0;
+  char str[10];
+  printf("Who are you?\n");
+  scanf("%s",str);
+  printf("Hello, %s!\n",str);
   printf("tossing a coin...\n");
   srand(time(NULL));
   for(i=1;i<4;i++){
