@@ -18,5 +18,9 @@ int main(){
     }
   }
   printf("Heads: %d,Tails: %d\n",cnth,cntt);
+  if(cnth>cntt)
+    printf("you won!\n");
+    else
+      printf("you lose\n");
   return 0;
 }
